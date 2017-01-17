@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new OneFragment(), "ONE");
         adapter.addFragment(new TwoFragment(), "TWO");
         adapter.addFragment(new ThreeFragment(), "THREE");
-        adapter.addFragment(new ThreeFragment(), "FOUR");
+        adapter.addFragment(new FourFragment(), "FOUR");
         viewPager.setAdapter(adapter);
     }
 
