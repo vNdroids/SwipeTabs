@@ -15,8 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
+        setSupportActionBar(toolbar);   //toolbar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); //back icon
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
